@@ -1,0 +1,25 @@
+/* pages/about/about.wxss */
+
+page {
+    background-color: #fff;
+}
+
+.header .title {
+    font-size: 32rpx;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60rpx;
+}
+
+.Rose-detail {
+    font-size: 32rpx;
+    line-height: 1.8;
+    padding: 20rpx;
+    color: #4f4f4f;
+    background: #fff;
+}
+
+.Rose-content {
+    overflow: hidden;
+    word-break: break-word;
+}

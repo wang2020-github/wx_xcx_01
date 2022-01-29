@@ -1,0 +1,126 @@
+<!-- index.wxml -->
+<!-- 轮播图 -->
+<wxs module="comm" src="../comm.wxs"></wxs>
+<view class="carousel">
+  <swiper class='carousel_swiper' indicator-dots='true' autoplay='true' interval='4000'>
+    <swiper-item>
+      <image class="carouselImg" src='../../assets/images/a.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="carouselImg"  src='../../assets/images/b.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image  class="carouselImg"  src='../../assets/images/c.png'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 推荐列表 -->
+<view class="lists">
+  <view class="news" bindtap="toDetail" >
+    <view class="content">
+      <view class='imgitem'>
+        <image class='imgitem' mode="widthFit"  src="/assets/images/b.png"></image>
+      </view>
+      <view class="title">标题</view>
+      <view class="bottom">
+        <view class="icon">
+          <van-icon name="underway-o" />
+          2019-12-01
+        </view>
+        <view class="icon">
+          <van-icon name="browsing-history-o" />
+          123
+        </view>
+      </view>
+      <view class="detail">
+      范德萨尽快是否的风景科学家的就服你
+      </view>
+    </view>
+  </view> 
+    <view class="news" bindtap="toDetail" >
+    <view class="content">
+      <view class='imgitem'>
+        <image class='imgitem' mode="widthFit"  src="/assets/images/b.png"></image>
+      </view>
+      <view class="title">标题</view>
+      <view class="bottom">
+        <view class="icon">
+          <van-icon name="underway-o" />
+          2019-12-01
+        </view>
+        <view class="icon">
+          <van-icon name="browsing-history-o" />
+          123
+        </view>
+      </view>
+      <view class="detail">
+      范德萨尽快是否的风景科学家的就服你
+      </view>
+    </view>
+  </view> 
+    <view class="news" bindtap="toDetail" >
+    <view class="content">
+      <view class='imgitem'>
+        <image class='imgitem' mode="widthFit"  src="/assets/images/b.png"></image>
+      </view>
+      <view class="title">标题</view>
+      <view class="bottom">
+        <view class="icon">
+          <van-icon name="underway-o" />
+          2019-12-01
+        </view>
+        <view class="icon">
+          <van-icon name="browsing-history-o" />
+          123
+        </view>
+      </view>
+      <view class="detail">
+      范德萨尽快是否的风景科学家的就服你
+      </view>
+    </view>
+  </view> 
+    <view class="news" bindtap="toDetail" >
+    <view class="content">
+      <view class='imgitem'>
+        <image class='imgitem' mode="widthFit"  src="/assets/images/b.png"></image>
+      </view>
+      <view class="title">标题</view>
+      <view class="bottom">
+        <view class="icon">
+          <van-icon name="underway-o" />
+          2019-12-01
+        </view>
+        <view class="icon">
+          <van-icon name="browsing-history-o" />
+          123
+        </view>
+      </view>
+      <view class="detail">
+      范德萨尽快是否的风景科学家的就服你
+      </view>
+    </view>
+  </view> 
+    <view class="news" bindtap="toDetail" >
+    <view class="content">
+      <view class='imgitem'>
+        <image class='imgitem' mode="widthFit"  src="/assets/images/b.png"></image>
+      </view>
+      <view class="title">标题</view>
+      <view class="bottom">
+        <view class="icon">
+          <van-icon name="underway-o" />
+          2019-12-01
+        </view>
+        <view class="icon">
+          <van-icon name="browsing-history-o" />
+          123
+        </view>
+      </view>
+      <view class="detail">
+      范德萨尽快是否的风景科学家的就服你
+      </view>
+    </view>
+  </view> 
+  
+</view>
+<!-- 底部 -->

@@ -1,0 +1,11 @@
+<!-- pages/about/about.wxml -->
+<import src="../../wxParse/wxParse.wxml" />
+<view class="header">
+    <view class="title">关于博主</view>
+</view>
+<van-divider />
+<view class="Rose-detail">
+    <view class="Rose-content">
+        <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+    </view>
+</view>

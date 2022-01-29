@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lists/lists",
+    "pages/about/about",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#008CD6",
+    "navigationBarTitleText": "博客",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "backgroundColor": "#008CD6",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/nav/home.png",
+        "selectedIconPath": "assets/nav/home_fill.png"
+      },
+      {
+        "pagePath": "pages/lists/lists",
+        "text": "分类",
+        "iconPath": "assets/nav/project.png",
+        "selectedIconPath": "assets/nav/project_fill.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "assets/nav/user.png",
+        "selectedIconPath": "assets/nav/user_fill.png"
+      }
+    ]
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

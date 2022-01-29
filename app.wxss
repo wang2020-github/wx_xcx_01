@@ -1,0 +1,6 @@
+/**app.wxss**/
+page {
+  width: 100%;
+  overflow-x: hidden;
+  background: #e5e9f0
+}

@@ -1,0 +1,28 @@
+<!--pages/detail/detail.wxml-->
+<import src="../../wxParse/wxParse.wxml" />
+<view class="Rose-detail">
+  <view class="Rose-title">{{items.title}}</view>
+  <view class="Rose-addtime">
+    <view class="Rose-keywords">
+      <icon class='iconfont icon-shijian2'></icon>
+      {{items.inputtime}}
+    </view>
+    <view class="Rose-keywords">
+      <icon class="iconfont icon-kanguo"></icon>
+      {{items.views}}
+    </view>
+  </view>
+  <view class="Rose-description" >{{items.description}}</view>
+  <view class="Rose-content">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+  </view>
+  <view class="Rose-center" >— End —</view>
+  <view class="Rose-read">
+    阅读 {{items.views}}
+    <view class="Rose-Right" bindtap="wetherLike" >
+        <van-icon name="good-job-o" />
+      {{items.likenum}}
+    </view>
+  </view>
+</view>
+<!-- 推荐阅读 -->

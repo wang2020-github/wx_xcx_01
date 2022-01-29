@@ -1,0 +1,455 @@
+<!-- pages/lists/lists.wxml -->
+<van-tabs active="{{ tab.active }}" color="{{ tab.color }}">
+  <van-tab title="php技术">
+    <view class="common-list">
+      <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题1</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题1</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题1</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题1</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题1</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题1</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题1</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+      
+
+
+
+    </view>
+  </van-tab>
+  <van-tab title="小程序教程"> <view class="common-list">
+      <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题2</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题2</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题2</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题2</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题2</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题2</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题2</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+      
+
+
+
+    </view></van-tab>
+  <van-tab title="小程序开发"> <view class="common-list">
+      <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题3</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题3</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题3</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题3</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题3</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题3</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题3</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+      
+
+
+
+    </view></van-tab>
+  <van-tab title="js教程"> <view class="common-list">
+      <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题4</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题4</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题4</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题4</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题4</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题4</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题4</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+      
+
+
+
+    </view></van-tab>
+  <van-tab title="js开发"> <view class="common-list">
+      <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题5</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题5</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题5</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题5</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题5</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题5</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+            <view class="list-item has-img" index="1" id="1" bindtap="toDetail">
+        <view class="content-title">
+          <text>标题标题5</text>
+        </view>
+        <view class="content-date">
+          <van-icon name="clock-o" class="vicon" />
+          2019-01-01
+          <van-icon name="eye-o" class="vicon" />
+         12311
+        </view>
+        <image src="../../assets/images/a.png" mode="aspectFill" class="cover"></image>
+      </view>
+      
+
+
+
+    </view></van-tab>
+</van-tabs>
